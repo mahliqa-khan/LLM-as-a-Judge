@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "model_output": "Example paragraph from your model. This is where you'll paste the text that your model generated. It can be multiple sentences or a few paragraphs. Replace this with your actual model output.",
+    "human_score": 8,
+    "gpt5_score": 7,
+    "notes": "Optional: Add any notes about this sample"
+  },
+  {
+    "id": 2,
+    "model_output": "Another example output. You can have as much text as needed here. The evaluation framework will handle paragraphs of any length.",
+    "human_score": 6,
+    "gpt5_score": 6,
+    "notes": "Optional notes"
+  },
+  {
+    "id": 3,
+    "model_output": "Third example. Replace these examples with your actual data.",
+    "human_score": 9,
+    "gpt5_score": 8,
+    "notes": "Optional notes"
+  }
+]

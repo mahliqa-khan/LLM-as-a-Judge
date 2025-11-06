@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "model_output": "The capital of France is Paris. It is located in the northern part of the country and has been the French capital since the 12th century. Paris is known for its iconic landmarks like the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral.",
+    "human_score": 9,
+    "gpt5_score": 9,
+    "notes": "Accurate and comprehensive"
+  },
+  {
+    "id": 2,
+    "model_output": "France capital is Paris city.",
+    "human_score": 5,
+    "gpt5_score": 6,
+    "notes": "Correct but poorly written"
+  },
+  {
+    "id": 3,
+    "model_output": "The capital of France is Lyon, which is the second-largest city in the country. Lyon is famous for its cuisine and historical architecture.",
+    "human_score": 2,
+    "gpt5_score": 3,
+    "notes": "Factually incorrect - Lyon is not the capital"
+  },
+  {
+    "id": 4,
+    "model_output": "Paris is the capital and most populous city of France. With an estimated 2023 population of 2.1 million residents in the city proper, Paris is the fourth-largest city in the European Union. The city has a rich history dating back over 2,000 years and serves as a major center for art, fashion, and culture.",
+    "human_score": 10,
+    "gpt5_score": 10,
+    "notes": "Excellent, detailed, and accurate"
+  },
+  {
+    "id": 5,
+    "model_output": "Paris.",
+    "human_score": 6,
+    "gpt5_score": 5,
+    "notes": "Technically correct but minimal effort"
+  },
+  {
+    "id": 6,
+    "model_output": "The French capital city, located on the Seine River, is Paris. This beautiful city attracts millions of tourists each year.",
+    "human_score": 8,
+    "gpt5_score": 8,
+    "notes": "Good answer with context"
+  },
+  {
+    "id": 7,
+    "model_output": "I think it might be Paris but I'm not entirely sure. It could also be Marseille or another major French city.",
+    "human_score": 3,
+    "gpt5_score": 2,
+    "notes": "Shows uncertainty and suggests wrong alternatives"
+  },
+  {
+    "id": 8,
+    "model_output": "Paris is France's capital. The city is divided into 20 arrondissements and is situated on the River Seine. It's a global center for art, fashion, gastronomy, and culture.",
+    "human_score": 9,
+    "gpt5_score": 9,
+    "notes": "Comprehensive and well-structured"
+  },
+  {
+    "id": 9,
+    "model_output": "The capital is Paris, France.",
+    "human_score": 7,
+    "gpt5_score": 7,
+    "notes": "Correct and concise"
+  },
+  {
+    "id": 10,
+    "model_output": "France's capital has been Paris since medieval times. The city plays a crucial role in French politics, economy, and culture. Major institutions including the French government are headquartered there.",
+    "human_score": 8,
+    "gpt5_score": 9,
+    "notes": "Good context, GPT-5 slightly overvalued"
+  },
+  {
+    "id": 11,
+    "model_output": "The answer is Paris. This city is not only the capital but also the largest city in France.",
+    "human_score": 8,
+    "gpt5_score": 7,
+    "notes": "Accurate with additional fact"
+  },
+  {
+    "id": 12,
+    "model_output": "I don't know.",
+    "human_score": 1,
+    "gpt5_score": 1,
+    "notes": "No attempt to answer"
+  },
+  {
+    "id": 13,
+    "model_output": "Paris is widely recognized as the capital of France. The metropolitan area, known as Île-de-France, is home to over 12 million people, making it one of the most populated urban areas in Europe.",
+    "human_score": 10,
+    "gpt5_score": 9,
+    "notes": "Excellent detail, GPT-5 slightly conservative"
+  },
+  {
+    "id": 14,
+    "model_output": "The capital city of France would be Paris, which sits along the Seine River in north-central France.",
+    "human_score": 9,
+    "gpt5_score": 8,
+    "notes": "Very good, includes geographic context"
+  },
+  {
+    "id": 15,
+    "model_output": "France = Paris (capital)",
+    "human_score": 4,
+    "gpt5_score": 5,
+    "notes": "Correct but poor formatting"
+  }
+]
