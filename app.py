@@ -13,14 +13,14 @@ import os
 
 
 st.set_page_config(
-    page_title="LLM Model Evaluator",
+    page_title="AI vs Human Benchmark",
     page_icon="⚖️",
     layout="wide"
 )
 
 
 def main():
-    st.title("⚖️ LLM Model Evaluator")
+    st.title("⚖️ AI vs Human Benchmark")
     st.markdown("""
     Compare your AI model's performance against human analyst benchmarks.
     Upload your evaluation data to get comprehensive statistical analysis.
