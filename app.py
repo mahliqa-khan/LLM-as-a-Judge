@@ -1,5 +1,5 @@
 """
-Streamlit web app for GPT-5 Judge Evaluation
+Streamlit web app for AI Model Evaluation
 """
 
 import streamlit as st
@@ -13,27 +13,27 @@ import os
 
 
 st.set_page_config(
-    page_title="GPT-5 Judge Evaluator",
+    page_title="LLM Model Evaluator",
     page_icon="⚖️",
     layout="wide"
 )
 
 
 def main():
-    st.title("⚖️ LLM Judge Evaluator")
+    st.title("⚖️ LLM Model Evaluator")
     st.markdown("""
-    Evaluate GPT-5's judging accuracy against human ground truth labels.
+    Compare your AI model's performance against human analyst benchmarks.
     Upload your evaluation data to get comprehensive statistical analysis.
     """)
 
     # Sidebar
     st.sidebar.header("About")
     st.sidebar.markdown("""
-    This tool compares GPT-5 judgments against human ratings to assess:
+    This tool compares your AI model's performance against human analyst ratings to assess:
     - Accuracy and correlation
     - Error patterns
     - Bias analysis
-    - Worst/best predictions
+    - Best/worst predictions
     """)
 
     st.sidebar.markdown("---")
@@ -44,12 +44,13 @@ def main():
     [
       {
         "id": 1,
-        "model_output": "text...",
-        "human_score": 8,
-        "gpt5_score": 7
+        "model_output": "description...",
+        "human_score": 85,
+        "gpt5_score": 80
       }
     ]
     ```
+    Note: `gpt5_score` = your model's score
     """)
 
     # File upload
@@ -70,10 +71,10 @@ def main():
             data=json.dumps([
                 {
                     "id": 1,
-                    "model_output": "Example text from your model",
-                    "human_score": 8,
-                    "gpt5_score": 7,
-                    "notes": "Optional notes"
+                    "model_output": "PDF_name.pdf or task description",
+                    "human_score": 85,
+                    "gpt5_score": 80,
+                    "notes": "Optional: what was extracted"
                 }
             ], indent=2),
             file_name="evaluation_template.json",
@@ -236,9 +237,9 @@ def display_overview(metrics, evaluator):
         ))
 
         fig.update_layout(
-            title="Human vs GPT-5 Scores",
+            title="Human vs Model Scores",
             xaxis_title="Human Score",
-            yaxis_title="GPT-5 Score",
+            yaxis_title="Model Score",
             height=400
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -254,7 +255,7 @@ def display_overview(metrics, evaluator):
         ))
         fig.add_trace(go.Histogram(
             x=evaluator.gpt5_scores,
-            name='GPT-5 Scores',
+            name='Model Scores',
             opacity=0.6,
             marker_color='orange'
         ))
@@ -324,13 +325,13 @@ def display_accuracy_metrics(metrics, evaluator):
 
         # Interpretation
         if metrics.pearson_correlation >= 0.9:
-            st.success("✅ Very strong correlation - GPT-5 aligns well with humans!")
+            st.success("✅ Very strong correlation - Model aligns well with human analysts!")
         elif metrics.pearson_correlation >= 0.7:
             st.info("ℹ️ Strong correlation - good alignment")
         elif metrics.pearson_correlation >= 0.5:
             st.warning("⚠️ Moderate correlation - some alignment issues")
         else:
-            st.error("❌ Weak correlation - GPT-5 judgments may not be reliable")
+            st.error("❌ Weak correlation - Model performance may not be reliable")
 
     # Bias analysis
     st.markdown("---")
@@ -359,9 +360,9 @@ def display_accuracy_metrics(metrics, evaluator):
     if abs(metrics.mean_error) < 0.2:
         st.success("✅ No significant bias detected")
     elif metrics.mean_error > 0:
-        st.warning(f"⚠️ GPT-5 tends to OVERESTIMATE by {metrics.mean_error:.2f} points on average")
+        st.warning(f"⚠️ Model tends to OVERESTIMATE by {metrics.mean_error:.2f} points on average")
     else:
-        st.warning(f"⚠️ GPT-5 tends to UNDERESTIMATE by {abs(metrics.mean_error):.2f} points on average")
+        st.warning(f"⚠️ Model tends to UNDERESTIMATE by {abs(metrics.mean_error):.2f} points on average")
 
 
 def display_error_analysis(metrics, evaluator):
@@ -455,9 +456,9 @@ def display_predictions(evaluator):
         for i, pred in enumerate(worst, 1):
             with st.expander(f"#{i} - Sample {pred['id']} (Error: {pred['error']:+d})"):
                 st.write(f"**Human Score:** {pred['human_score']}")
-                st.write(f"**GPT-5 Score:** {pred['gpt5_score']}")
+                st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
-                st.write(f"**Text:** {pred['model_output'][:300]}...")
+                st.write(f"**Description:** {pred['model_output'][:300]}...")
 
     with col2:
         st.subheader("✅ Best Predictions")
@@ -466,9 +467,9 @@ def display_predictions(evaluator):
         for i, pred in enumerate(best, 1):
             with st.expander(f"#{i} - Sample {pred['id']} (Error: {pred['error']:+d})"):
                 st.write(f"**Human Score:** {pred['human_score']}")
-                st.write(f"**GPT-5 Score:** {pred['gpt5_score']}")
+                st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
-                st.write(f"**Text:** {pred['model_output'][:300]}...")
+                st.write(f"**Description:** {pred['model_output'][:300]}...")
 
 
 def display_full_report(evaluator):
