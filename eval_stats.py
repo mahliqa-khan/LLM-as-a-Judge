@@ -341,11 +341,12 @@ class LLMJudgeEvaluator:
 
     def _print_confusion_matrix(self):
         """Print formatted confusion matrix."""
-        confusion = self.get_confusion_matrix()
-
         # Determine score range from data
         min_score = int(min(min(self.human_scores), min(self.gpt5_scores)))
         max_score = int(max(max(self.human_scores), max(self.gpt5_scores)))
+
+        # Get confusion matrix with actual score range
+        confusion = self.get_confusion_matrix(score_range=(min_score, max_score))
 
         print("        GPT-5 Predicted Score")
         print("       ", end="")
