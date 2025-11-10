@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "model_output": "Allianz ESG Report 2023 - Materiality Assessment: Company provides results of materiality assessment on page 30 of annual ESG report. Key material topics identified include climate risk, data privacy, and sustainable investment.",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Environmental - Materiality assessment extraction - excellent accuracy"
+  },
+  {
+    "id": 2,
+    "model_output": "Microsoft Sustainability Report 2023 - GHG Emissions: Scope 1 emissions: 95,000 tCO2e, Scope 2 (location-based): 520,000 tCO2e, Scope 3: 12.7 million tCO2e. Net-zero commitment by 2030.",
+    "human_score": 98,
+    "gpt5_score": 96,
+    "notes": "Environmental - Emissions data - comprehensive extraction with all scopes"
+  },
+  {
+    "id": 3,
+    "model_output": "Tesla Impact Report 2023 - Renewable Energy: 78% of electricity from renewable sources, up from 65% previous year. Solar installations at 45 facilities globally.",
+    "human_score": 92,
+    "gpt5_score": 90,
+    "notes": "Environmental - Energy transition metrics - good detail"
+  },
+  {
+    "id": 4,
+    "model_output": "Unilever Annual Report 2023 - Board Diversity: 40% gender diversity quota maintained. Board includes members from 5+ countries with diverse professional backgrounds.",
+    "human_score": 94,
+    "gpt5_score": 92,
+    "notes": "Governance - Board composition - accurate diversity metrics"
+  },
+  {
+    "id": 5,
+    "model_output": "Nike Sustainability Report 2023 - Water Usage: Reduced water consumption by 25% compared to 2020 baseline. Target of 40% reduction by 2025 across manufacturing facilities.",
+    "human_score": 96,
+    "gpt5_score": 94,
+    "notes": "Environmental - Water stewardship - clear baseline and targets"
+  },
+  {
+    "id": 6,
+    "model_output": "Amazon Sustainability Report 2023 - Employee Training: 12,450 employees completed sustainability training modules during fiscal year. Mandatory ESG training for all managers.",
+    "human_score": 91,
+    "gpt5_score": 88,
+    "notes": "Social - Training programs - slight discrepancy in exact numbers"
+  },
+  {
+    "id": 7,
+    "model_output": "Nestlé ESG Disclosure 2023 - Supply Chain: All tier-1 suppliers undergo annual ESG audits. 98% compliance with supplier code of conduct. 15 suppliers suspended for violations.",
+    "human_score": 97,
+    "gpt5_score": 95,
+    "notes": "Social - Supply chain management - comprehensive audit data"
+  },
+  {
+    "id": 8,
+    "model_output": "Goldman Sachs Annual Report 2023 - Employee Turnover: Voluntary turnover rate 8.3% in 2023 versus industry average of 12%. Retention programs reduced attrition in key roles.",
+    "human_score": 89,
+    "gpt5_score": 86,
+    "notes": "Social - Human capital metrics - good benchmark comparison"
+  },
+  {
+    "id": 9,
+    "model_output": "Apple Environmental Progress Report 2023 - Community Investment: $45 million invested in community development programs, focusing on education and health initiatives in manufacturing regions.",
+    "human_score": 93,
+    "gpt5_score": 91,
+    "notes": "Social - Community engagement - clear investment figures"
+  },
+  {
+    "id": 10,
+    "model_output": "Walmart Sustainability Report 2023 - Waste Management: 92% of operational waste recycled or composted, exceeding 85% target. Zero waste to landfill achieved at 78 facilities.",
+    "human_score": 95,
+    "gpt5_score": 94,
+    "notes": "Environmental - Circular economy - strong performance data"
+  },
+  {
+    "id": 11,
+    "model_output": "Vague ESG Report - Climate: Company has some climate initiatives. Working on reducing emissions. No specific targets mentioned in accessible sections.",
+    "human_score": 35,
+    "gpt5_score": 32,
+    "notes": "Environmental - Poor disclosure quality - insufficient data"
+  },
+  {
+    "id": 12,
+    "model_output": "HSBC Sustainability Report 2023 - Green Finance: $45.8 billion in sustainable finance provided in 2023. Commitment to $750-1 trillion by 2030. Paris-aligned portfolio targets set.",
+    "human_score": 97,
+    "gpt5_score": 96,
+    "notes": "Governance - Sustainable finance - excellent quantification"
+  },
+  {
+    "id": 13,
+    "model_output": "Handwritten ESG Notes - Diversity: Board diversity mentioned but specific percentages illegible. Some reference to gender quota policy on page 15.",
+    "human_score": 48,
+    "gpt5_score": 45,
+    "notes": "Governance - Poor scan quality - limited extraction possible"
+  },
+  {
+    "id": 14,
+    "model_output": "Siemens Annual Report 2023 - TCFD Compliance: Full TCFD disclosure provided on pages 67-82. Climate risk assessment covers physical and transition risks across all business units. Scenario analysis using 1.5°C and 2°C pathways.",
+    "human_score": 99,
+    "gpt5_score": 98,
+    "notes": "Governance - Framework compliance - comprehensive TCFD reporting"
+  },
+  {
+    "id": 15,
+    "model_output": "Coca-Cola Sustainability Report 2023 - Packaging: 35% recycled content in packaging. Target of 50% by 2025. Collected 120% of bottles sold for recycling in developed markets.",
+    "human_score": 94,
+    "gpt5_score": 92,
+    "notes": "Environmental - Circular packaging - clear metrics and targets"
+  },
+  {
+    "id": 16,
+    "model_output": "Johnson & Johnson Health Report 2023 - Employee Safety: OSHA recordable incident rate of 0.28 per 100 employees. 15% reduction from previous year. Zero fatalities across global operations.",
+    "human_score": 96,
+    "gpt5_score": 95,
+    "notes": "Social - Workplace safety - excellent H&S metrics"
+  },
+  {
+    "id": 17,
+    "model_output": "Complex Legal ESG Filing - Compliance: Multiple regulatory references to EU Taxonomy, SFDR Article 8 classification mentioned. Specific alignment percentages unclear due to technical legal language.",
+    "human_score": 62,
+    "gpt5_score": 58,
+    "notes": "Governance - Complex regulatory document - partial extraction"
+  },
+  {
+    "id": 18,
+    "model_output": "BP Sustainability Report 2023 - Transition Plan: Investment of $5 billion annually in low-carbon energy through 2030. 50GW renewable energy capacity target. Oil & gas production reduction of 25% by 2030.",
+    "human_score": 98,
+    "gpt5_score": 97,
+    "notes": "Environmental - Energy transition strategy - comprehensive targets"
+  },
+  {
+    "id": 19,
+    "model_output": "Procter & Gamble Citizenship Report 2023 - Gender Equality: 47% women in management positions globally. Equal pay certified in 45 countries. Gender balance on board of directors achieved.",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Social - DEI metrics - strong gender equality data"
+  },
+  {
+    "id": 20,
+    "model_output": "Standard Chartered ESG Report 2023 - Human Rights: Human rights due diligence conducted across operations. 0 substantiated human rights violations in 2023. Grievance mechanism accessible in 15 languages.",
+    "human_score": 93,
+    "gpt5_score": 91,
+    "notes": "Social - Human rights performance - good disclosure"
+  },
+  {
+    "id": 21,
+    "model_output": "Intel Corporate Responsibility Report 2023 - Conflict Minerals: 100% of smelters validated as conflict-free. Independent third-party audits completed for 386 smelters in supply chain.",
+    "human_score": 97,
+    "gpt5_score": 96,
+    "notes": "Social - Responsible sourcing - excellent supply chain transparency"
+  },
+  {
+    "id": 22,
+    "model_output": "Volkswagen Annual Report 2023 - Carbon Neutrality: Scope 1 and 2 carbon neutral at all European production facilities. €18 billion investment in electrification through 2026.",
+    "human_score": 94,
+    "gpt5_score": 92,
+    "notes": "Environmental - Decarbonization - strong commitment and investment"
+  },
+  {
+    "id": 23,
+    "model_output": "Old Scanned ESG Report 1998 - Environmental: Some environmental initiatives mentioned. Specific metrics difficult to extract due to poor scan quality and outdated terminology.",
+    "human_score": 41,
+    "gpt5_score": 38,
+    "notes": "Environmental - Historical document - degraded quality"
+  },
+  {
+    "id": 24,
+    "model_output": "SAP Integrated Report 2023 - Diversity & Inclusion: 34.6% women in workforce globally. 28.5% women in management. Diversity training completed by 98% of employees. 15 employee resource groups active.",
+    "human_score": 96,
+    "gpt5_score": 95,
+    "notes": "Social - Comprehensive DEI metrics - detailed breakdown"
+  },
+  {
+    "id": 25,
+    "model_output": "Starbucks Global Social Impact Report 2023 - Ethical Sourcing: 98.6% of coffee ethically sourced through C.A.F.E. Practices. 100% traceability for coffee purchases. Direct farmer support programs in 12 countries.",
+    "human_score": 97,
+    "gpt5_score": 96,
+    "notes": "Social - Sustainable sourcing - excellent certification data"
+  },
+  {
+    "id": 26,
+    "model_output": "Adidas Sustainability Report 2023 - Circularity: 17 million pairs of shoes made from recycled ocean plastic. 60% of products contain at least 20% recycled materials. Take-back program in 1,200 stores.",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Environmental - Circular economy innovation - strong metrics"
+  },
+  {
+    "id": 27,
+    "model_output": "JPMorgan ESG Report 2023 - Sustainable Finance: $317 billion in green financing facilitated in 2023. Climate finance target of $2.5 trillion by 2030. Financed emissions disclosed per PCAF methodology.",
+    "human_score": 98,
+    "gpt5_score": 97,
+    "notes": "Governance - Green finance leadership - comprehensive disclosure"
+  },
+  {
+    "id": 28,
+    "model_output": "Minimal ESG Disclosure - Governance: Board meets quarterly. Some independent directors. Limited information on ESG oversight structure and responsibilities.",
+    "human_score": 44,
+    "gpt5_score": 42,
+    "notes": "Governance - Weak disclosure - insufficient detail"
+  },
+  {
+    "id": 29,
+    "model_output": "Unilever Human Rights Report 2023 - Living Wage: 100% of direct employees earn living wage or above in all markets. Extended living wage commitments to agricultural supply chain affecting 776,000 workers.",
+    "human_score": 99,
+    "gpt5_score": 98,
+    "notes": "Social - Living wage achievement - best practice disclosure"
+  },
+  {
+    "id": 30,
+    "model_output": "Shell Energy Transition Strategy 2023 - Net Zero: Absolute emissions reduction target of 50% by 2030 vs 2016 baseline. Net-zero by 2050 commitment. Carbon intensity reduction of 20% achieved vs 2016.",
+    "human_score": 96,
+    "gpt5_score": 95,
+    "notes": "Environmental - Comprehensive climate strategy - clear baselines and targets"
+  }
+]
