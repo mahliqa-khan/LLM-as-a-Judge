@@ -459,7 +459,7 @@ def display_predictions(evaluator):
                 st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
                 st.write(f"**Description:**")
-                st.code(pred['model_output'], language=None)
+                st.markdown(f"<div style='padding: 10px; background-color: #f0f2f6; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word;'>{pred['model_output']}</div>", unsafe_allow_html=True)
 
     with col2:
         st.subheader("✅ Best Predictions")
@@ -471,7 +471,7 @@ def display_predictions(evaluator):
                 st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
                 st.write(f"**Description:**")
-                st.code(pred['model_output'], language=None)
+                st.markdown(f"<div style='padding: 10px; background-color: #f0f2f6; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word;'>{pred['model_output']}</div>", unsafe_allow_html=True)
 
 
 def display_full_report(evaluator):
