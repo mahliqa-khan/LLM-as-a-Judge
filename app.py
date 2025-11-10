@@ -458,7 +458,8 @@ def display_predictions(evaluator):
                 st.write(f"**Human Score:** {pred['human_score']}")
                 st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
-                st.text_area("Description", pred['model_output'], height=150, key=f"worst_{i}", disabled=True)
+                st.write(f"**Description:**")
+                st.code(pred['model_output'], language=None)
 
     with col2:
         st.subheader("✅ Best Predictions")
@@ -469,7 +470,8 @@ def display_predictions(evaluator):
                 st.write(f"**Human Score:** {pred['human_score']}")
                 st.write(f"**Model Score:** {pred['gpt5_score']}")
                 st.write(f"**Error:** {pred['error']:+d}")
-                st.text_area("Description", pred['model_output'], height=150, key=f"best_{i}", disabled=True)
+                st.write(f"**Description:**")
+                st.code(pred['model_output'], language=None)
 
 
 def display_full_report(evaluator):
