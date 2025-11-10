@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "model_output": "Invoice_2024_Q1_001.pdf - Extracted: Amount $12,450, Date: 2024-01-15, Vendor: Acme Corp",
+    "human_score": 98,
+    "gpt5_score": 96,
+    "notes": "Perfect extraction - minor date format difference"
+  },
+  {
+    "id": 2,
+    "model_output": "Contract_ABC_2023.pdf - Extracted: Parties, start date, 3-year term, auto-renewal clause",
+    "human_score": 92,
+    "gpt5_score": 90,
+    "notes": "Excellent - all key terms identified"
+  },
+  {
+    "id": 3,
+    "model_output": "Medical_Record_456.pdf - Extracted: Patient demographics, diagnosis codes, medications",
+    "human_score": 88,
+    "gpt5_score": 85,
+    "notes": "Good accuracy, minor medication dosage variance"
+  },
+  {
+    "id": 4,
+    "model_output": "Handwritten_Form_789.pdf - Extracted: Name field only, other fields illegible",
+    "human_score": 45,
+    "gpt5_score": 42,
+    "notes": "Poor quality scan - both struggled"
+  },
+  {
+    "id": 5,
+    "model_output": "Tax_Form_1099.pdf - Extracted: All boxes correctly, proper formatting",
+    "human_score": 100,
+    "gpt5_score": 100,
+    "notes": "Perfect - structured form, clear fields"
+  },
+  {
+    "id": 6,
+    "model_output": "Financial_Statement_Q2.pdf - Extracted: Revenue, expenses, net income, all figures",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Very accurate financial data extraction"
+  },
+  {
+    "id": 7,
+    "model_output": "Purchase_Order_12345.pdf - Extracted: Items, quantities, prices, shipping info",
+    "human_score": 94,
+    "gpt5_score": 92,
+    "notes": "Complete extraction with minor formatting differences"
+  },
+  {
+    "id": 8,
+    "model_output": "Resume_JohnDoe.pdf - Extracted: Work history, education, skills list",
+    "human_score": 86,
+    "gpt5_score": 83,
+    "notes": "Good but missed one previous employer"
+  },
+  {
+    "id": 9,
+    "model_output": "Bank_Statement_Jan.pdf - Extracted: All transactions, dates, amounts, balance",
+    "human_score": 97,
+    "gpt5_score": 96,
+    "notes": "Near perfect - minor rounding on decimals"
+  },
+  {
+    "id": 10,
+    "model_output": "Faded_Receipt.pdf - Extracted: Store name, partial amount (unclear)",
+    "human_score": 52,
+    "gpt5_score": 48,
+    "notes": "Low quality document - limited extraction possible"
+  },
+  {
+    "id": 11,
+    "model_output": "Insurance_Claim_567.pdf - Extracted: Claimant, date, amount, incident description",
+    "human_score": 91,
+    "gpt5_score": 89,
+    "notes": "Strong performance on structured claim form"
+  },
+  {
+    "id": 12,
+    "model_output": "Lease_Agreement.pdf - Extracted: Parties, property, rent, term, security deposit",
+    "human_score": 93,
+    "gpt5_score": 91,
+    "notes": "All critical lease terms captured"
+  },
+  {
+    "id": 13,
+    "model_output": "Payroll_Report_March.pdf - Extracted: Employee list, hours, wages, deductions",
+    "human_score": 96,
+    "gpt5_score": 95,
+    "notes": "Excellent payroll data accuracy"
+  },
+  {
+    "id": 14,
+    "model_output": "Utility_Bill_Electric.pdf - Extracted: Usage, charges, due date, account number",
+    "human_score": 94,
+    "gpt5_score": 92,
+    "notes": "Complete utility bill extraction"
+  },
+  {
+    "id": 15,
+    "model_output": "Shipping_Label_FedEx.pdf - Extracted: Tracking #, addresses, weight, service type",
+    "human_score": 99,
+    "gpt5_score": 98,
+    "notes": "Near perfect - highly structured label"
+  },
+  {
+    "id": 16,
+    "model_output": "Legal_Document_Complex.pdf - Extracted: Basic parties and dates, missed some clauses",
+    "human_score": 68,
+    "gpt5_score": 65,
+    "notes": "Complex legal language - partial extraction"
+  },
+  {
+    "id": 17,
+    "model_output": "Product_Catalog_2024.pdf - Extracted: Product names, SKUs, prices from catalog",
+    "human_score": 89,
+    "gpt5_score": 86,
+    "notes": "Good catalog data extraction, some formatting issues"
+  },
+  {
+    "id": 18,
+    "model_output": "Employment_Application.pdf - Extracted: Personal info, work history, education",
+    "human_score": 90,
+    "gpt5_score": 88,
+    "notes": "Solid application form extraction"
+  },
+  {
+    "id": 19,
+    "model_output": "Prescription_RX123.pdf - Extracted: Medication, dosage, doctor, pharmacy info",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Accurate medical prescription extraction"
+  },
+  {
+    "id": 20,
+    "model_output": "Credit_Card_Statement.pdf - Extracted: Transactions, dates, amounts, total balance",
+    "human_score": 96,
+    "gpt5_score": 95,
+    "notes": "Very accurate credit card statement"
+  },
+  {
+    "id": 21,
+    "model_output": "Property_Deed.pdf - Extracted: Property description, parties, but missed legal description details",
+    "human_score": 75,
+    "gpt5_score": 72,
+    "notes": "Partial extraction - complex legal descriptions challenging"
+  },
+  {
+    "id": 22,
+    "model_output": "W2_Tax_Form.pdf - Extracted: All boxes, employer info, wage data perfectly",
+    "human_score": 100,
+    "gpt5_score": 99,
+    "notes": "Standardized form - excellent extraction"
+  },
+  {
+    "id": 23,
+    "model_output": "Meeting_Minutes.pdf - Extracted: Date, attendees, some action items but structure unclear",
+    "human_score": 71,
+    "gpt5_score": 68,
+    "notes": "Unstructured text - moderate success"
+  },
+  {
+    "id": 24,
+    "model_output": "Packing_Slip_456.pdf - Extracted: Items, quantities, order number, shipping method",
+    "human_score": 93,
+    "gpt5_score": 91,
+    "notes": "Complete packing slip extraction"
+  },
+  {
+    "id": 25,
+    "model_output": "Inspection_Report.pdf - Extracted: Inspector, date, findings, recommendations",
+    "human_score": 87,
+    "gpt5_score": 84,
+    "notes": "Good extraction with minor detail gaps"
+  }
+]

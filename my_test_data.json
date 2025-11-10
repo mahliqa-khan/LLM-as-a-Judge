@@ -1,0 +1,17 @@
+  [
+    {
+      "id": 1,
+      "model_output": "Response to customer inquiry #1234",
+      "human_score": 85,
+      "gpt5_score": 82,
+      "notes": "Helpfulness rating"
+    },
+    {
+      "id": 2,
+      "model_output": "Another response example",
+      "human_score": 90,
+      "gpt5_score": 88,
+      "notes": "Quality assessment"
+    }
+  ]
+  

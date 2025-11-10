@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "model_output": "Customer Service Response - Inquiry #1234: Provided refund information and processing timeline",
+    "human_score": 85,
+    "gpt5_score": 82,
+    "notes": "Helpfulness rating - clear but could be more empathetic"
+  },
+  {
+    "id": 2,
+    "model_output": "Customer Service Response - Inquiry #1235: Resolved shipping issue with tracking details",
+    "human_score": 92,
+    "gpt5_score": 90,
+    "notes": "Excellent response with proactive solution"
+  },
+  {
+    "id": 3,
+    "model_output": "Customer Service Response - Inquiry #1236: Basic answer to FAQ",
+    "human_score": 75,
+    "gpt5_score": 73,
+    "notes": "Adequate but minimal effort"
+  },
+  {
+    "id": 4,
+    "model_output": "Customer Service Response - Inquiry #1237: Detailed explanation with multiple options",
+    "human_score": 95,
+    "gpt5_score": 93,
+    "notes": "Outstanding - comprehensive and helpful"
+  },
+  {
+    "id": 5,
+    "model_output": "Customer Service Response - Inquiry #1238: Incorrect information provided",
+    "human_score": 45,
+    "gpt5_score": 48,
+    "notes": "Factual errors identified"
+  }
+]
